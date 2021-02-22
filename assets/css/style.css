@@ -432,6 +432,10 @@ td a{
     text-decoration: none;
 }
 
+.newcardsocial{
+    display: none;
+}
+
 
 
 /**Footer **********************************/
@@ -884,6 +888,9 @@ td{
 }
 td a{
     text-decoration: none;
+}
+.newcardsocial{
+    display: none;
 }
 
 
@@ -1338,15 +1345,24 @@ footer p{
         text-align: center;
         padding-top: 20px;
     }
+    .frm-contact{
+        width: 100%;
+    }
     
     /**SOCIAL **********************************/
-    .social{
-        text-align: center;
-        text-decoration: block;
-        
+    .newcardsocial{
+        display: block;
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 750px; 
+        height: 400px;
     }
-    .social h3{
-        font-size: 30px;
+    .newcardsocial h3{
+        font-size: 50px;
         color: #fafbfc;
         text-shadow: black 1px 1px;
         background-color: #53728F;
@@ -1357,36 +1373,33 @@ footer p{
         margin-top: 0px;
         text-align: center; 
     }
+
+    .fb{
+        font-size: 40px;
+        color: white; 
+        margin-left:90px;
+        margin-top: 40px;
+    }
+    .ber{
+        font-size: 40px;
+        color: white; 
+        margin-left:90px;
+        margin-top: 40px; 
+    }
+    .gogle{
+        font-size: 40px;
+        color: white; 
+        margin-left:90px;
+        margin-top: 40px;
+    }
+    
+    
     .cardsocial{
-        margin: 0 auto; 
-        float: none; 
-        margin-bottom: 50px; 
-        padding-bottom: -20px;
-        margin-top: 8%;
-        box-shadow: 2px 8px 10px #070707;
-        width: 750px; 
+        display: none;
     }
+
+   
     
-    i{
-     font-size: 50px;   
-     float: left;
-    }
-    td i{
-        text-align: center;
-    }
-    
-    .social a{
-        text-align: center !important;
-        font-size: 20px;
-        color: white;
-    }
-    td{
-        padding: 5px;
-        text-align: center !important; 
-    }
-    td a{
-        text-decoration: none;
-    }
     
     
     /**Footer **********************************/
@@ -1401,8 +1414,5 @@ footer p{
         margin-top: 10px;
         font-size: 20px;
     }
-
-
-
 
 }
