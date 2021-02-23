@@ -13,7 +13,7 @@ body{
     z-index: 9;
 }
 #rd{
-    font-size:40px;
+    font-size:30px;
 }
 .navhome{
     float: left;
@@ -56,12 +56,12 @@ body{
     margin: 10px;
 }
 .home h3{
-    font-size: 34px;
+    font-size: 30px;
     color: #fafbfc;
     text-shadow: black 3px 3px;
     background-color:transparent;
     background-color: rgb(53, 52, 52, 0.7);
-    background-size: 20px;
+    background-size: 25px;
     border-radius: 20px 20px 20px 20px;
     letter-spacing: 2px;
     font-family: 'Gorditas', cursive;
@@ -1384,7 +1384,7 @@ footer p{
         padding-bottom: -20px;
         margin-top: 8%;
         box-shadow: 2px 8px 10px #070707;
-        width: 700px; 
+        width: 730px; 
         height: 400px;
     }
     .newcardsocial h3{
@@ -1532,7 +1532,7 @@ footer p{
     }
     .about ul li {
         text-align: justify;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     /**For Not Showing Content of Ipone 6/7/8 and 6/7/8 plus**/
@@ -1549,7 +1549,7 @@ footer p{
         padding-bottom: -20px;
         margin-top: 8%;
         padding: 0 !important;
-        width:800px 
+        width:900px 
     }
     .cardaboutIpad a{
         font-size: 20px;
@@ -1585,7 +1585,7 @@ footer p{
         background-position: center;
         background-attachment:fixed;
         width: 100%;
-        height: 130px; 
+        height: 150px; 
     }
     
     .h2-skill{
@@ -1593,12 +1593,12 @@ footer p{
         font-family: 'Gorditas', cursive;
         text-shadow: rgb(7, 7, 7) 1px 2px;
         color:white;
-        font-size: 50px;
         background-color: rgb(53, 52, 52, 0.5); 
         padding-top: 0px; 
-        margin-top: 35px; 
         width: 70%;
-        margin-left: 120px;
+        margin-top: 40px; 
+        margin-left: 150px;
+        font-size: 60px;
     }
     
     /**Skills Filmora Style**/
@@ -1726,7 +1726,7 @@ footer p{
         background-position: center;
         background-attachment:fixed;
         width: 100%;
-        height: 130px; 
+        height: 150px; 
         margin-top: -20px;   
     }
     .h2-project{
@@ -1734,12 +1734,12 @@ footer p{
         font-family: 'Gorditas', cursive;
         text-shadow: rgb(7, 7, 7) 1px 2px;
         color:white;
-        font-size: 50px;
         background-color: rgb(53, 52, 52, 0.5); 
         padding-top: 0px; 
-        margin-top: 35px; 
         width: 70%;
-        margin-left: 120px;
+        margin-top: 40px; 
+        margin-left: 150px;
+        font-size: 60px;
     }
 
     /**Porfolio CSS**/
@@ -1827,7 +1827,7 @@ footer p{
         background-position: center;
         background-attachment:fixed;
         width: 100%;
-        height: 130px; 
+        height: 150px; 
         margin-top: -20px;
     }
     .h2-contact{
@@ -1835,12 +1835,12 @@ footer p{
         font-family: 'Gorditas', cursive;
         text-shadow: rgb(7, 7, 7) 1px 2px;
         color:white;
-        font-size: 50px;
         background-color: rgb(53, 52, 52, 0.5); 
         padding-top: 0px; 
-        margin-top: 35px; 
         width: 70%;
-        margin-left: 120px;
+        margin-top: 40px; 
+        margin-left: 150px;
+        font-size: 60px;
     }
     .form-label{
         font-size: 20px;
@@ -1871,7 +1871,7 @@ footer p{
         padding-bottom: -20px;
         margin-top: 8%;
         box-shadow: 2px 8px 10px #070707;
-        width: 700px; 
+        width: 940px; 
         height: 400px;
     }
     .newcardsocial h3{
