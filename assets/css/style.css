@@ -12,6 +12,9 @@ body{
 .navz{
     z-index: 9;
 }
+#rd{
+    font-size:40px;
+}
 .navhome{
     float: left;
     width: 100%;
@@ -23,6 +26,7 @@ body{
 }
 .navhome a:hover{
     background-color: rgb(204, 203, 200);
+    border-radius: 10px 10px 10px 10px;
 }
 .sticky {
     position: fixed;
@@ -52,14 +56,16 @@ body{
     margin: 10px;
 }
 .home h3{
-    font-size: 35px;
+    font-size: 34px;
     color: #fafbfc;
-    text-shadow: black 2px 2px;
-    background-color: #53728F;
+    text-shadow: black 3px 3px;
+    background-color:transparent;
+    background-color: rgb(53, 52, 52, 0.7);
     background-size: 20px;
     border-radius: 20px 20px 20px 20px;
     letter-spacing: 2px;
     font-family: 'Gorditas', cursive;
+    margin: 20px;
 }
 .btn{
     font-size: 20px;
@@ -458,6 +464,9 @@ footer p{
 .navz{
     z-index: 9;
 }
+#rd{
+    font-size: 40px;
+}
 .navhome{
     float: left;
     width: 100%;
@@ -469,6 +478,7 @@ footer p{
 }
 .navhome a:hover{
     background-color: rgb(204, 203, 200);
+    border-radius: 10px 10px 10px 10px;
 }
 .sticky {
     position: fixed;
@@ -497,16 +507,16 @@ footer p{
     border-radius: 100px 100px 100px 100px;
 }
 .home h3{
-    font-size: 35px;
+    font-size: 38px;
     color: #fafbfc;
-    text-shadow: black 2px 2px;
-    background-color: #53728F;
+    text-shadow: black 3px 3px;
+    background-color:transparent;
+    background-color: rgb(53, 52, 52, 0.7);
     background-size: 20px;
     border-radius: 20px 20px 20px 20px;
     letter-spacing: 2px;
     font-family: 'Gorditas', cursive;
     margin: 20px;
-
 }
 .btn{
     font-size: 20px;
@@ -916,17 +926,21 @@ footer p{
     .navz{
         z-index: 9;
     }
+    #rd{
+        font-size: 40px;
+    }
     .navhome{
         float: left;
         width: 100%;
         height: 50px;
     }
     .navhome a{
-        font-size: 40px;
+        font-size: 25px;
         color: black;
     }
     .navhome a:hover{
         background-color: rgb(204, 203, 200);
+        border-radius: 10px 10px 10px 10px;
     }
     .sticky {
         position: fixed;
@@ -967,8 +981,13 @@ footer p{
         margin: 20px;
     }
     .btn{
-        font-size: 35px;
-        margin: 15px;
+        font-size: 30px;
+        margin: 20px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #btncv{
+        font-size: 30px;
+        margin: 20px;
         border-radius: 10px 10px 10px 10px;
     }
 
@@ -1340,13 +1359,20 @@ footer p{
         font-size: 20px;
         color: white;
     }
-    .con{
+    .con h3{
         color: white;
         text-align: center;
-        padding-top: 20px;
+        font-size: 35px;
     }
     .frm-contact{
         width: 100%;
+        height: 400px;
+    }
+    .form-label{
+        font-size: 25px;
+    }
+    .btn-primary{
+        font-size: 30px;
     }
     
     /**SOCIAL **********************************/
@@ -1358,7 +1384,7 @@ footer p{
         padding-bottom: -20px;
         margin-top: 8%;
         box-shadow: 2px 8px 10px #070707;
-        width: 750px; 
+        width: 700px; 
         height: 400px;
     }
     .newcardsocial h3{
@@ -1392,15 +1418,15 @@ footer p{
         margin-left:90px;
         margin-top: 40px;
     }
-    
-    
+
     .cardsocial{
         display: none;
     }
 
-   
-    
-    
+    /**Maps ************************************/
+    .map{
+        width: 100%;
+    }
     
     /**Footer **********************************/
     footer{
@@ -1414,5 +1440,497 @@ footer p{
         margin-top: 10px;
         font-size: 20px;
     }
+}
+
+/**This is For IPAD PRO ********************************************************************************************/
+@media only screen and (min-width: 1024px){
+
+    /**Navbar ***************************/
+    #navbarNav{   
+        justify-content: flex-end;
+        margin-left:50px;
+    }
+    #navbarNav li{
+        margin: 20px;
+    }
+      
+    /** HOME *************************************/
+    .home h3{
+        font-size: 80px;
+        color: #fafbfc;
+        text-shadow: black 3px 3px;
+        background-color:transparent;
+        background-color: rgb(53, 52, 52, 0.7);
+        background-size: 20px;
+        border-radius: 20px 20px 20px 20px;
+        letter-spacing: 2px;
+        font-family: 'Gorditas', cursive;
+        margin: 50px;
+    }
+    .btn{
+        font-size: 30px;
+        margin: 20px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #btncv{
+        font-size: 30px;
+        margin: 20px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    /**ABOUT ************************************/
+    .me{
+        background-image: url("../image/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed;
+        width: 100%;
+        height: 150px; 
+    }
+    .h2-about{
+        border-radius: 50px 50px 50px;
+        font-family: 'Gorditas', cursive;
+        text-shadow: rgb(7, 7, 7) 1px 2px;
+        color:white;
+        background-color: rgb(53, 52, 52, 0.5); 
+        padding-top: 0px; 
+        width: 70%;
+        margin-top: 40px; 
+        margin-left: 150px;
+        font-size: 60px;
+    }
+    .caro{
+        background-size: cover;
+        height: 100px;
+    }
+    .image2{
+        width: 100%;
+        height: 600px;
+    }
+    .image1{
+        width: 100%;
+        height: 600px;
+    }
+    .kimpoy{
+        width: 100%;
+        height: 600px;
+    }
+    .about{
+        text-align: justify;
+        background-color:rgb(33, 37, 41);
+        color:white;
+        padding-top: 400px;
+        font-size: 18px;
+        margin: 0px;
+    }
+    .about h4{
+        font-size: 40px;
+        text-align: center;
+        margin:120px 120px 25px 120px;
+        padding-top: 80px;
+    }
+    .about ul li {
+        text-align: justify;
+        font-size: 20px;
+    }
+    
+    /**For Not Showing Content of Ipone 6/7/8 and 6/7/8 plus**/
+    .cardabout{
+        display: none;
+    }                                               
+    
+    /**For Ipad **********/
+    .cardaboutIpad{
+        display: block;
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        padding: 0 !important;
+        width:800px 
+    }
+    .cardaboutIpad a{
+        font-size: 20px;
+    }
+
+    .cardaboutIpad1{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707; 
+        font-size: 20px; 
+    }
+    .cardaboutIpadtitle{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cardaboutIpadtext{
+        color: white;
+    }
+    .cardaboutIpad img{
+        width: 100%;
+        height: 350px;  
+    }
+    
+    /**SKILLS ***********************************************/
+    .skill{
+        background-image: url("../image/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed;
+        width: 100%;
+        height: 130px; 
+    }
+    
+    .h2-skill{
+        border-radius: 50px 50px 50px;
+        font-family: 'Gorditas', cursive;
+        text-shadow: rgb(7, 7, 7) 1px 2px;
+        color:white;
+        font-size: 50px;
+        background-color: rgb(53, 52, 52, 0.5); 
+        padding-top: 0px; 
+        margin-top: 35px; 
+        width: 70%;
+        margin-left: 120px;
+    }
+    
+    /**Skills Filmora Style**/
+    .cardfilmoraipad {
+        display: block;
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 330px;
+    }
+    .cardfilmoraipad a{
+        font-size: 25px;
+    }
+    .filmotitleipad{
+        color: white;
+        font-size: 25px;
+    }
+    .filmotextipad{
+        color: white;
+        font-size: 18px;
+    }
+    
+    /**Skills Effects Filmora ********************/
+    .innerfilmoraipad{
+        overflow: hidden;
+    }
+    .innerfilmoraipad img{
+        transition: all 1.5s ease;
+        height: 200px;
+    }
+    .innerfilmoraipad:hover img{
+        transform: scale(1.5);
+    }
+    .cardfilmora{
+        display: none;
+    }
+    
+    /**Skills Photoshop Style**********/
+    .cardphotoipad{
+        display: block;
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 330px; 
+        height: 88%;
+    }
+    .cardphotoipad a{
+        font-size: 25px;
+        position: absolute;
+        margin-top: 150px;
+    }
+    .phototitleipad{
+        color: white;
+        font-size: 25px;
+    }
+    .phototextipad{
+        color: white;
+        font-size: 18px;
+    }
+    
+    /**Skills Effects Photoshop *********/
+    .innerphotoipad{
+        overflow: hidden;
+    }
+    .innerphotoipad img{
+        transition: all 1.5s ease;
+        height: 200px;
+    }
+    .innerphotoipad:hover img{
+        transform: scale(1.5);
+    }
+    .cardphoto{
+        display: none;
+    }
+    
+    /**Skills Html style ********/
+    .cardhtmlipad{
+        display: block;
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: -3%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 330px; 
+    }
+    .cardhtmlipad a{
+        font-size: 25px;
+    }
+    .htmltitleipad{
+        color:white;
+        font-size: 25px;
+    }
+    .htmltextipad{
+        color: white;
+        font-size: 18px;
+    }
+    
+    /**Skills Effects Html css ***********/
+    .innerhtmlipad{
+        overflow: hidden;
+    }
+    .innerhtmlipad img{
+        transition: all 1.5s ease;
+        height: 200px;
+    }
+    .innerhtmlipad:hover img{
+        transform: scale(1.5);
+    }
+    .cardhtml{
+        display: none;
+    }
+    
+    /**PROJECT ====================================================**/
+    .project{
+        background-image: url("../image/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed;
+        width: 100%;
+        height: 130px; 
+        margin-top: -20px;   
+    }
+    .h2-project{
+        border-radius: 50px 50px 50px;
+        font-family: 'Gorditas', cursive;
+        text-shadow: rgb(7, 7, 7) 1px 2px;
+        color:white;
+        font-size: 50px;
+        background-color: rgb(53, 52, 52, 0.5); 
+        padding-top: 0px; 
+        margin-top: 35px; 
+        width: 70%;
+        margin-left: 120px;
+    }
+
+    /**Porfolio CSS**/
+    /**For not Showing Ipad Project changes On Iphone 6/7/8 & Plus**/
+    .portfolio{
+        display: none;
+    }
+
+    .portfolioipad{
+        display: block;
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 300px; 
+    }
+    .portfolioipad a{
+        font-size: 25px;
+    }
+    .portfoltitleipad{
+        color: white;
+        font-size: 25px;
+    }
+    .portfoltextipad{
+        color: white;
+        font-size: 18px;
+    }
+    .kim1ipad{
+        overflow: hidden;
+    }
+    .kim1ipad img{
+        transition: all 1.5s ease;
+        height: 155px;
+    }
+    .kim1ipad:hover img{
+        transform: scale(1.5);
+    }
+
+
+    /**Website Css *****************/
+    /**For not Showing Ipad Project changes On Iphone 6/7/8 & Plus**/
+    .website{
+        display: none;
+    }
+    .websiteipad{
+        display: block;
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 300px; 
+    }
+    .websiteipad a{
+        font-size: 25px
+    }
+    .webtitleipad{
+        color: white;
+        font-size: 25px;
+    }
+    .webtextipad{
+        color: white;
+        font-size: 18px;
+    }
+    .kim2ipad{
+        overflow: hidden;
+    }
+    .kim2ipad img{
+        transition: all 1.5s ease;
+        height: 153px;
+    }
+    .kim2ipad:hover img{
+        transform: scale(1.5);
+    }
+
+    
+    /**CONTACT====================================**/
+    .contact{
+        background-image: url("../image/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed;
+        width: 100%;
+        height: 130px; 
+        margin-top: -20px;
+    }
+    .h2-contact{
+        border-radius: 50px 50px 50px;
+        font-family: 'Gorditas', cursive;
+        text-shadow: rgb(7, 7, 7) 1px 2px;
+        color:white;
+        font-size: 50px;
+        background-color: rgb(53, 52, 52, 0.5); 
+        padding-top: 0px; 
+        margin-top: 35px; 
+        width: 70%;
+        margin-left: 120px;
+    }
+    .form-label{
+        font-size: 20px;
+        color: white;
+    }
+    .con h3{
+        color: white;
+        text-align: center;
+        font-size: 35px;
+    }
+    .frm-contact{
+        width: 100%;
+        height: 400px;
+    }
+    .form-label{
+        font-size: 25px;
+    }
+    .btn-primary{
+        font-size: 30px;
+    }
+    
+    /**SOCIAL **********************************/
+    .newcardsocial{
+        display: block;
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 700px; 
+        height: 400px;
+    }
+    .newcardsocial h3{
+        font-size: 50px;
+        color: #fafbfc;
+        text-shadow: black 1px 1px;
+        background-color: #53728F;
+        background-size: 20px;
+        border-radius: 10px 10px 10px 10px;
+        letter-spacing: 2px;
+        font-family: 'Gorditas', cursive;
+        margin-top: 0px;
+        text-align: center; 
+    }
+
+    .fb{
+        font-size: 40px;
+        color: white; 
+        margin-left:90px;
+        margin-top: 40px;
+    }
+    .ber{
+        font-size: 40px;
+        color: white; 
+        margin-left:90px;
+        margin-top: 40px; 
+    }
+    .gogle{
+        font-size: 40px;
+        color: white; 
+        margin-left:90px;
+        margin-top: 40px;
+    }
+
+    .cardsocial{
+        display: none;
+    }
+
+    /**Maps ************************************/
+    .map{
+        width: 100%;
+    }
+    
+    /**Footer **********************************/
+    footer{
+        background-color: rgb(33, 37, 41);
+        text-align: center;
+        font-size: 15px;
+        color: white;
+    }
+    footer p{
+        margin: 0;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+
+
+
+    
 
 }
