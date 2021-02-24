@@ -7,454 +7,474 @@ body{
 }
 
 /**iPhone 6/7/8 ************************************/
+@media only screen and (min-width: 375px){
+    /**NAVBAR *****************************/
+    .navz{
+        z-index: 9;
+    }
+    #rd{
+        font-size:30px;
+        color: none;
+    }
+    .navhome i{
+        font-size: 20px;
+        padding-top: 5px;
+        margin-right: 10px;
+    }
 
-/**NAVBAR *****************************/
-.navz{
-    z-index: 9;
-}
-#rd{
-    font-size:30px;
-}
-.navhome{
+    .navhome{
+        float: left;
+        width: 100%;
+        height: 50px;
+    }
+    .navhome a{
+        font-size: 20px;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(255,255,255,.1 );
+        border-bottom: 1px solid rgb(71, 69, 69);
+        border-left: 5px solid rgb(134, 134, 134);
+        transition: .4s;
+    }
+    .navhome ul li:hover a{
+        padding-left: 50px;
+        color: rgb(7, 7, 7) !important;
+    }
+
+    .navhome a:hover{
+        background-color: rgb(204, 157, 15);
+        border-radius: 10px 10px 10px 10px;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+
+
+
+    /** HOME *************************************/
+    .main{
+        background-image: url("../image/back11.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:scroll;
+        width: 100%;
+        height: 670px;   
+    }
+
+    .home{
+        text-align: center;
+        padding-top: 150px;
+    }
+    .home img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px 100px 100px 100px;
+        margin: 10px;
+    }
+    .home h3{
+        font-size: 30px;
+        color: #fafbfc;
+        text-shadow: black 3px 3px;
+        background-color:transparent;
+        background-color: rgb(53, 52, 52, 0.7);
+        background-size: 25px;
+        border-radius: 20px 20px 20px 20px;
+        letter-spacing: 2px;
+        font-family: 'Gorditas', cursive;
+        margin: 20px;
+    }
+    .btn{
+        font-size: 20px;
+        margin: 15px;
+        border-radius: 10px 10px 10px 10px;
+        
+    }
+    /**ABOUT ************************************/
+    .me{
+        background-image: url("../image/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed;
+        width: 100%;
+        height: 100px; 
+    }
+    .h2-about{
+        border-radius: 50px 50px 50px;
+        font-family: 'Gorditas', cursive;
+        text-shadow: rgb(7, 7, 7) 1px 2px;
+        color:white;
+        font-size: 30px;
+        background-color: rgb(53, 52, 52, 0.5); 
+        padding-top: 0px; 
+        margin-top: 35px; 
+        width: 70%;
+        margin-left: 55px;
+        
+    }
+    .caro{
+        background-size: cover;
+        height: 100px;
+    }
+    .image2{
+        width: 100%;
+        height: 250px;
+    }
+    .image1{
+        width: 100%;
+        height: 250px;
+    }
+    .kimpoy{
+        width: 100%;
+        height: 250px;
+    }
+    .about{
+        text-align: justify;
+        background-color:rgb(33, 37, 41);
+        color:white;
+        padding-top: 200px;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .about h4{
+        padding-top: 0 !important;
+        font-size: 30px;
+        text-align: center;
+    }
+    ul{
+        text-align: justify !important;
+        font-size: 19px;
+    }
+    .cardabout{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        padding: 0 !important;
+        width:350px
+    }
+    .cardabout1{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707; 
+    }
+    .cardabouttext{
+        color:white;
+    }
+    .cardabouttitle{
+        color: white;
+        text-align: center;
+    }
+    .cardaboutIpad{
+        display: none;
+    }
+
+    /**SKILLS ***********************************************/
+    .skill{
+        background-image: url("../image/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed;
+        width: 100%;
+        height: 100px; 
+    }
+
+    .h2-skill{
+        border-radius: 50px 50px 50px;
+        font-family: 'Gorditas', cursive;
+        text-shadow: rgb(7, 7, 7) 1px 2px;
+        color:white;
+        font-size: 30px;
+        background-color: rgb(53, 52, 52, 0.5); 
+        padding-top: 0px; 
+        margin-top: 35px; 
+        width: 70%;
+        margin-left: 55px;
+    }
+
+    /**Skills Filmora Style**/
+    .cardfilmora {
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 320px;
+    }
+    .filmotitle{
+        color: white;
+    }
+    .filmotext{
+        color: white;
+    }
+
+    /**Skills Effects Filmora ********************/
+    .innerfilmora{
+        overflow: hidden;
+    }
+    .innerfilmora img{
+        transition: all 1.5s ease;
+    }
+    .innerfilmora:hover img{
+        transform: scale(1.5);
+    }
+    .cardfilmoraipad{
+        display: none;
+    }
+
+    /**Skills Photoshop Style**********/
+    .cardphoto{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 320px; 
+    }
+    .phototitle{
+        color: white;
+    }
+    .phototext{
+        color: white;
+    }
+
+    /**Skills Effects Photoshop *********/
+    .innerphoto{
+        overflow: hidden;
+    }
+    .innerphoto img{
+        transition: all 1.5s ease;
+    }
+    .innerphoto:hover img{
+        transform: scale(1.5);
+    }
+    .cardphotoipad{
+        display: none;
+    }
+
+
+    /**Skills Html style ********/
+    .cardhtml{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 320px; 
+    }
+    .htmltitle{
+        color:white;
+    }
+    .htmltext{
+        color: white;
+    }
+
+    /**Skills Effects Html css ***********/
+    .innerhtml{
+        overflow: hidden;
+    }
+    .innerhtml img{
+        transition: all 1.5s ease;
+    }
+    .innerhtml:hover img{
+        transform: scale(1.5);
+    }
+    .cardhtmlipad{
+        display: none;
+    }
+
+    /**PROJECT ============================**/
+    .project{
+        background-image: url("../image/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed;
+        width: 100%;
+        height: 100px; 
+        margin-top: -20px;   
+    }
+    .h2-project{
+        border-radius: 50px 50px 50px;
+        font-family: 'Gorditas', cursive;
+        text-shadow: rgb(7, 7, 7) 1px 2px;
+        color:white;
+        font-size: 30px;
+        background-color: rgb(53, 52, 52, 0.5); 
+        padding-top: 0px; 
+        margin-top: 35px; 
+        width: 70%;
+        margin-left: 55px;
+    }
+
+    /**Porfolio Css ***************/
+    .portfolio{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 320px; 
+    }
+    .portfoltitle{
+        color: white;
+    }
+    .portfoltext{
+        color: white;
+    }
+    .kim1{
+        overflow: hidden;
+    }
+    .kim1 img{
+        transition: all 1.5s ease;
+    }
+    .kim1:hover img{
+        transform: scale(1.5);
+    }
+
+    .portfolioipad{
+        display: none;
+    }
+
+    /**Website Css *****************/
+    .website{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 320px; 
+    }
+    .webtitle{
+        color: white;
+    }
+    .webtext{
+        color: white;
+    }
+    .kim2{
+        overflow: hidden;
+    }
+    .kim2 img{
+        transition: all 1.5s ease;
+    }
+    .kim2:hover img{
+        transform: scale(1.5);
+    }
+    .websiteipad{
+        display: none;
+    }
+
+
+    /**CONTACT====================================**/
+    .contact{
+        background-image: url("../image/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed;
+        width: 100%;
+        height: 100px; 
+        margin-top: -20px;
+    }
+    .h2-contact{
+        border-radius: 50px 50px 50px;
+        font-family: 'Gorditas', cursive;
+        text-shadow: rgb(7, 7, 7) 1px 2px;
+        color:white;
+        font-size: 30px;
+        background-color: rgb(53, 52, 52, 0.5); 
+        padding-top: 0px; 
+        margin-top: 35px; 
+        width: 70%;
+        margin-left: 55px;
+    }
+    .form-label{
+        font-size: 20px;
+        color: white;
+    }
+    .con{
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /**SOCIAL **********************************/
+    .social{
+        text-align: center;
+        text-decoration: block;
+        
+    }
+    .social h3{
+        font-size: 30px;
+        color: #fafbfc;
+        text-shadow: black 1px 1px;
+        background-color: #53728F;
+        background-size: 20px;
+        border-radius: 10px 10px 10px 10px;
+        letter-spacing: 2px;
+        font-family: 'Gorditas', cursive;
+        margin-top: 0px;
+        text-align: center; 
+    }
+    .cardsocial{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 50px; 
+        padding-bottom: -20px;
+        margin-top: 8%;
+        box-shadow: 2px 8px 10px #070707;
+        width: 350px; 
+    }
+
+    i{
+    font-size: 50px;   
     float: left;
-    width: 100%;
-    height: 50px;
-}
-.navhome a{
-    font-size: 20px;
-    color: black;
-}
-.navhome a:hover{
-    background-color: rgb(204, 203, 200);
-    border-radius: 10px 10px 10px 10px;
-}
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+    }
 
-/** HOME *************************************/
-.main{
-    background-image: url("../image/back11.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment:scroll;
-    width: 100%;
-    height: 670px;   
-}
+    .social a{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+    td{
+        padding: 5px;
+        text-align: left !important; 
+    }
+    td a{
+        text-decoration: none;
+    }
 
-.home{
-    text-align: center;
-    padding-top: 150px;
-}
-.home img{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px 100px 100px 100px;
-    margin: 10px;
-}
-.home h3{
-    font-size: 30px;
-    color: #fafbfc;
-    text-shadow: black 3px 3px;
-    background-color:transparent;
-    background-color: rgb(53, 52, 52, 0.7);
-    background-size: 25px;
-    border-radius: 20px 20px 20px 20px;
-    letter-spacing: 2px;
-    font-family: 'Gorditas', cursive;
-    margin: 20px;
-}
-.btn{
-    font-size: 20px;
-    margin: 15px;
-    border-radius: 10px 10px 10px 10px;
-    
-}
-/**ABOUT ************************************/
-.me{
-    background-image: url("../image/about.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment:fixed;
-    width: 100%;
-    height: 100px; 
-}
-.h2-about{
-    border-radius: 50px 50px 50px;
-    font-family: 'Gorditas', cursive;
-    text-shadow: rgb(7, 7, 7) 1px 2px;
-    color:white;
-    font-size: 30px;
-    background-color: rgb(53, 52, 52, 0.5); 
-    padding-top: 0px; 
-    margin-top: 35px; 
-    width: 70%;
-    margin-left: 55px;
-    
-}
-.caro{
-    background-size: cover;
-    height: 100px;
-}
-.image2{
-    width: 100%;
-    height: 250px;
-}
-.image1{
-    width: 100%;
-    height: 250px;
-}
-.kimpoy{
-    width: 100%;
-    height: 250px;
-}
-.about{
-    text-align: justify;
-    background-color:rgb(33, 37, 41);
-    color:white;
-    padding-top: 200px;
-    font-size: 18px;
-    padding-bottom: 20px;
-}
-.about h4{
-    padding-top: 0 !important;
-    font-size: 30px;
-    text-align: center;
-}
-ul{
-    text-align: justify !important;
-    font-size: 19px;
-}
-.cardabout{
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 50px; 
-    padding-bottom: -20px;
-    margin-top: 8%;
-    padding: 0 !important;
-    width:350px
-}
-.cardabout1{
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 50px; 
-    padding-bottom: -20px;
-    margin-top: 8%;
-    box-shadow: 2px 8px 10px #070707; 
-}
-.cardabouttext{
-    color:white;
-}
-.cardabouttitle{
-    color: white;
-    text-align: center;
-}
-.cardaboutIpad{
-    display: none;
-}
-
-/**SKILLS ***********************************************/
-.skill{
-    background-image: url("../image/about.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment:fixed;
-    width: 100%;
-    height: 100px; 
-}
-
-.h2-skill{
-    border-radius: 50px 50px 50px;
-    font-family: 'Gorditas', cursive;
-    text-shadow: rgb(7, 7, 7) 1px 2px;
-    color:white;
-    font-size: 30px;
-    background-color: rgb(53, 52, 52, 0.5); 
-    padding-top: 0px; 
-    margin-top: 35px; 
-    width: 70%;
-    margin-left: 55px;
-}
-
-/**Skills Filmora Style**/
-.cardfilmora {
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 50px; 
-    padding-bottom: -20px;
-    margin-top: 8%;
-    box-shadow: 2px 8px 10px #070707;
-    width: 320px;
-}
-.filmotitle{
-    color: white;
-}
-.filmotext{
-    color: white;
-}
-
-/**Skills Effects Filmora ********************/
-.innerfilmora{
-    overflow: hidden;
-}
-.innerfilmora img{
-    transition: all 1.5s ease;
-}
-.innerfilmora:hover img{
-    transform: scale(1.5);
-}
-.cardfilmoraipad{
-    display: none;
-}
-
-/**Skills Photoshop Style**********/
-.cardphoto{
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 50px; 
-    padding-bottom: -20px;
-    margin-top: 8%;
-    box-shadow: 2px 8px 10px #070707;
-    width: 320px; 
-}
-.phototitle{
-    color: white;
-}
-.phototext{
-    color: white;
-}
-
-/**Skills Effects Photoshop *********/
-.innerphoto{
-    overflow: hidden;
-}
-.innerphoto img{
-    transition: all 1.5s ease;
-}
-.innerphoto:hover img{
-    transform: scale(1.5);
-}
-.cardphotoipad{
-    display: none;
-}
-
-
-/**Skills Html style ********/
-.cardhtml{
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 50px; 
-    padding-bottom: -20px;
-    margin-top: 8%;
-    box-shadow: 2px 8px 10px #070707;
-    width: 320px; 
-}
-.htmltitle{
-    color:white;
-}
-.htmltext{
-    color: white;
-}
-
-/**Skills Effects Html css ***********/
-.innerhtml{
-    overflow: hidden;
-}
-.innerhtml img{
-    transition: all 1.5s ease;
-}
-.innerhtml:hover img{
-    transform: scale(1.5);
-}
-.cardhtmlipad{
-    display: none;
-}
-
-/**PROJECT ============================**/
-.project{
-    background-image: url("../image/about.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment:fixed;
-    width: 100%;
-    height: 100px; 
-    margin-top: -20px;   
-}
-.h2-project{
-    border-radius: 50px 50px 50px;
-    font-family: 'Gorditas', cursive;
-    text-shadow: rgb(7, 7, 7) 1px 2px;
-    color:white;
-    font-size: 30px;
-    background-color: rgb(53, 52, 52, 0.5); 
-    padding-top: 0px; 
-    margin-top: 35px; 
-    width: 70%;
-    margin-left: 55px;
-}
-
-/**Porfolio Css ***************/
-.portfolio{
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 50px; 
-    padding-bottom: -20px;
-    margin-top: 8%;
-    box-shadow: 2px 8px 10px #070707;
-    width: 320px; 
-}
-.portfoltitle{
-    color: white;
-}
-.portfoltext{
-    color: white;
-}
-.kim1{
-    overflow: hidden;
-}
-.kim1 img{
-    transition: all 1.5s ease;
-}
-.kim1:hover img{
-    transform: scale(1.5);
-}
-
-.portfolioipad{
-    display: none;
-}
-
-/**Website Css *****************/
-.website{
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 50px; 
-    padding-bottom: -20px;
-    margin-top: 8%;
-    box-shadow: 2px 8px 10px #070707;
-    width: 320px; 
-}
-.webtitle{
-    color: white;
-}
-.webtext{
-    color: white;
-}
-.kim2{
-    overflow: hidden;
-}
-.kim2 img{
-    transition: all 1.5s ease;
-}
-.kim2:hover img{
-    transform: scale(1.5);
-}
-.websiteipad{
-    display: none;
-}
-
-
-/**CONTACT====================================**/
-.contact{
-    background-image: url("../image/about.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment:fixed;
-    width: 100%;
-    height: 100px; 
-    margin-top: -20px;
-}
-.h2-contact{
-    border-radius: 50px 50px 50px;
-    font-family: 'Gorditas', cursive;
-    text-shadow: rgb(7, 7, 7) 1px 2px;
-    color:white;
-    font-size: 30px;
-    background-color: rgb(53, 52, 52, 0.5); 
-    padding-top: 0px; 
-    margin-top: 35px; 
-    width: 70%;
-    margin-left: 55px;
-}
-.form-label{
-    font-size: 20px;
-    color: white;
-}
-.con{
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-}
-
-/**SOCIAL **********************************/
-.social{
-    text-align: center;
-    text-decoration: block;
-    
-}
-.social h3{
-    font-size: 30px;
-    color: #fafbfc;
-    text-shadow: black 1px 1px;
-    background-color: #53728F;
-    background-size: 20px;
-    border-radius: 10px 10px 10px 10px;
-    letter-spacing: 2px;
-    font-family: 'Gorditas', cursive;
-    margin-top: 0px;
-    text-align: center; 
-}
-.cardsocial{
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 50px; 
-    padding-bottom: -20px;
-    margin-top: 8%;
-    box-shadow: 2px 8px 10px #070707;
-    width: 350px; 
-}
-
-i{
- font-size: 50px;   
- float: left;
-}
-
-.social a{
-    text-align: center;
-    font-size: 20px;
-    color: white;
-}
-td{
-    padding: 5px;
-    text-align: left !important; 
-}
-td a{
-    text-decoration: none;
-}
-
-.newcardsocial{
-    display: none;
-}
+    .newcardsocial{
+        display: none;
+    }
 
 
 
-/**Footer **********************************/
-footer{
-    background-color: rgb(33, 37, 41);
-    text-align: center;
-    font-size: 15px;
-    color: white;
-}
-footer p{
-    margin: 0;
-    margin-top: 10px;
-    font-size: 20px;
+    /**Footer **********************************/
+    footer{
+        background-color: rgb(33, 37, 41);
+        text-align: center;
+        font-size: 15px;
+        color: white;
+    }
+    footer p{
+        margin: 0;
+        margin-top: 10px;
+        font-size: 20px;
+    }
 }
 
 /**For iPhone 6/7/8 Plus ******************************************************************************************/
@@ -477,7 +497,7 @@ footer p{
     color: black;
 }
 .navhome a:hover{
-    background-color: rgb(204, 203, 200);
+    background-color: rgb(204, 157, 15);
     border-radius: 10px 10px 10px 10px;
 }
 .sticky {
@@ -934,12 +954,19 @@ footer p{
         width: 100%;
         height: 50px;
     }
+
+    .navhome i{
+        font-size: 20px;
+        padding-top: 10px;
+        margin-right: 10px;
+    }
+    
     .navhome a{
         font-size: 25px;
         color: black;
     }
     .navhome a:hover{
-        background-color: rgb(204, 203, 200);
+        background-color: rgb(204, 157, 15);
         border-radius: 10px 10px 10px 10px;
     }
     .sticky {
@@ -1451,7 +1478,22 @@ footer p{
         margin-left:50px;
     }
     #navbarNav li{
-        margin: 20px;
+        margin: 15px;
+    }
+    .navhome i{
+        font-size: 20px;
+        padding-top: 6px; 
+    }
+    .navhome a{
+        font-size: 20px;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(255,255,255,.1 );
+        border-bottom: 1px solid rgb(71, 69, 69);
+        transition: .4s;
+    }
+    .navhome ul li:hover a{
+        padding-left: 50px;
+        color: rgb(7, 7, 7) !important;
     }
       
     /** HOME *************************************/
@@ -1927,10 +1969,8 @@ footer p{
         margin-top: 10px;
         font-size: 20px;
     }
+}
 
-
-
-
+@media only screen and (min-width: 1366px){
     
-
 }
