@@ -16,6 +16,7 @@ body{
         font-size:30px;
         color: none;
     }
+
     .navhome i{
         font-size: 20px;
         padding-top: 5px;
@@ -2003,21 +2004,14 @@ footer p{
         box-sizing: border-box;
         border-bottom: 1px solid rgb(255,255,255,.1 );
         border-bottom: 1px solid rgb(71, 69, 69);
-        border-left: none;
         transition: .4s;
-    }
-    .navbar-nav ul li:hover a{
-        padding-left: 50px;
-        color: rgb(7, 7, 7) !important;
     }
 
     .navhome a:hover{
         background-color: rgb(204, 157, 15);
         border-radius: 10px 10px 10px 10px;
     }
-    .navbar-nav .active{
-        color: violet;
-    }
+   
     .sticky {
         position: fixed;
         top: 0;
@@ -2099,15 +2093,15 @@ footer p{
     }
     .image2{
         width: 100%;
-        height: 700px;
+        height: 800px;
     }
     .image1{
         width: 100%;
-        height: 700px;
+        height: 800px;
     }
     .kimpoy{
         width: 100%;
-        height: 700px;
+        height: 800px;
     }
     .about{
         text-align: justify;
@@ -2120,7 +2114,7 @@ footer p{
     .about h4{
         font-size: 40px;
         text-align: center;
-        margin: 250px 120px 30px 120px;
+        margin: 350px 120px 30px 120px;
         padding-top: 80px;
     }
     .about ul li {

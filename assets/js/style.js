@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 function submitForm() {
     document.contact-form.submit();
     document.contact-form.reset();
@@ -16,3 +18,12 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+$('.active').click(function(){
+  
+  $('#navbarNav').delay(3000).removeClass('show');
+  
+});
+
+
+});
